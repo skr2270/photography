@@ -97,7 +97,7 @@ nav{
     padding-top: 3rem;
 }
 .hero-introduction p{
-padding: 5rem 10rem;
+padding: 2rem 5rem;
 }
 .hero-introduction a{
 padding: 2rem 8rem;
@@ -151,15 +151,27 @@ margin-bottom: 4rem;
 }
 @keyframes plant-shake{
     from{
-        transform: rotateZ(-5deg);
+        transform: rotateZ(5deg);
     }
     to{
-        transform: rotateZ(5deg);
+        transform: rotateZ(15deg);
     }
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width:842px){
+    .hero{
+        width: 100%;
+    }
+    .hero-introduction h2{
+    padding-top: 1rem;
+    }
+    .hero-introduction p{
+    padding: 2rem;
+    }
+
+    /* BURGER MENU */
+
     .burger{
         position: relative;
         display: block;
